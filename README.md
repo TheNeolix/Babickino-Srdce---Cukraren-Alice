@@ -15,14 +15,9 @@ Vytvorenie moderného, „chutného“ digitálneho zážitku, ktorý prenáša 
 ## 🎨 Visual Identity (Style Guide)
 
 ### 🔴 Core Colors
-|Role |	Name |	HEX |
-|Primary / Accent |	Gold	#D4AF37 |
-|Primary | Dark	Chocolate	#3D1C02 |
-|Background | Light	Cream	#FFFDD0 |
-|Background Neutral |	Warm Gray	#F5F5F0 |
-|Text on Dark |	White	#FFFFFF |
-|Overlay |	Black (30% opacity)	#000000 / 30% |
-|Success | State	Green	#16A34A|
+| Role | Name | HEX |
+| :---  | :---  | :--- |
+|Primary / Accent | Gold | `#D4AF37` |
 
 
 ### 🔡 Typography
@@ -43,12 +38,28 @@ full accessibility (ARIA, keyboard nav, reduced motion), responsive mobile-first
 - **Assets:** Adobe Illustrator (Vector Logos)
 
 ---
+**Project Structure**
 
-## 📸 Preview
-<p align="center">
-  <img src="https://via.placeholder.com/800x500/050505/FFFFFF?text=Mockup+1" width="45%">
-  <img src="https://via.placeholder.com/800x500/050505/FFFFFF?text=Mockup+2" width="45%">
-</p>
+Alice-Pastery/
+├── index.html              ← Entry point
+├── package.json            ← Dependencies & scripts
+├── tsconfig.json           ← TypeScript config
+├── vite.config.ts          ← Vite + Tailwind plugin
+├── .env.example            ← Environment variables template
+├── .gitignore
+├── public/
+│   └── images/
+│       ├── logo.jpg        ← Brand logo
+│       ├── 248474-hero.mp4 ← Hero background video (2.3MB)
+│       ├── 248474-web.mp4  ← Web-quality video (12.4MB)
+│       └── 248474.mp4      ← Original video (31.7MB)
+└── src/
+    ├── main.tsx            ← React DOM entry
+    ├── App.tsx             ← All components (single-file)
+    ├── index.css           ← Design tokens + Tailwind
+    └── lib/
+        └── utils.ts        ← cn() utility (clsx + twMerge)
+
 
 ---
 
