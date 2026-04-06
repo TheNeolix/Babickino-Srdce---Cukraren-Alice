@@ -18,7 +18,12 @@ Vytvorenie moderného, „chutného“ digitálneho zážitku, ktorý prenáša 
 | Role | Name | HEX |
 | :---  | :---  | :--- |
 |Primary / Accent | Gold | `#D4AF37` |
-
+| Primary Dark | Chocolate | `#3D1C02` |
+| Background Light | Cream | `#FFFDD0` |
+| Background Neutral | Warm Gray | `#F5F5F0` |
+| Text on Dark | White | `#FFFFFF` |
+| Overlay | Black (30% opacity) | `#000000` / 30% |
+| Success State | Green | `#16A34A` |
 
 ### 🔡 Typography
 Inter (sans-serif) — body text, UI, buttons, labels — weights 300–600
