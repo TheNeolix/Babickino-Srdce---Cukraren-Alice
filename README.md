@@ -55,7 +55,7 @@ full accessibility (ARIA, keyboard nav, reduced motion), responsive mobile-first
 
 ---
 **Project Structure**
-` ` `
+```
 Alice-Pastery/
 ├── index.html              # Entry point (Vite)
 ├── package.json            # Závislosti a skripty
@@ -75,7 +75,7 @@ Alice-Pastery/
     ├── index.css           # Design tokens + Tailwind vrstvy
     └── lib/
         └── utils.ts        # cn() utility pre čisté Tailwind classy
-` ` `
+```
 
 ---
 
