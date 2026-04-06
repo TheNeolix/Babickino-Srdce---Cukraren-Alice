@@ -26,8 +26,10 @@ Vytvorenie moderného, „chutného“ digitálneho zážitku, ktorý prenáša 
 | Success State | Green | `#16A34A` |
 
 ### 🔡 Typography
-Inter (sans-serif) — body text, UI, buttons, labels — weights 300–600
-Playfair Display (serif) — all headings, brand name, quotes — weights 400–700 + italic
+| Role | Font | Source | Fallback Stack |
+| :--- | :--- | :--- | :--- |
+| Primary (Sans) | Inter | Google Fonts | `ui-sans-serif, system-ui, sans-serif` |
+| Secondary (Serif) | Playfair Display | Google Fonts | `ui-serifm Georgia, serif` | 
 
 ---
 
@@ -38,9 +40,18 @@ full accessibility (ARIA, keyboard nav, reduced motion), responsive mobile-first
 ---
 
 ## 🛠 Tech Stack
-- **Design:** Figma
-- **Platform:** Framer / Webflow
-- **Assets:** Adobe Illustrator (Vector Logos)
+| Layer | Technology | Version |
+| :--- | :--- | :--- |
+| Framework | React | 19.0.0 |
+| Build Tool | Vite | 6.2.0 |
+| Language | TypeScript | 5.8.2 |
+| Styling | Tailwind CSS | 4.1.14 (with @theme directive) |
+| CSS Integration | @tailwindcss/vite | 4.1.14 |
+| Animations | Motion (Framer Motion) | 12.23.24 |
+| Icons | Lucide React | 0.546.0 |
+| Utility Functions | clsx + tailwind-merge | 2.1.1 / 3.5.0 |
+| Fonts | Google Fonts (Inter, Playfair Display) | CDN |
+| Media | MP4 video (hero), JPG (logo), External images | — |
 
 ---
 **Project Structure**
