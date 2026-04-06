@@ -135,7 +135,7 @@ const Navbar = () => {
       )}
     >
       <div className="flex items-center gap-2">
-        <img src="/images/logo.jpg" alt="Babičkino srdce logo" className="w-10 h-10 rounded-full object-cover" />
+        <img src={`${import.meta.env.BASE_URL}images/logo.jpg`} alt="Babičkino srdce logo" className="w-10 h-10 rounded-full object-cover" />
         <span className={cn(
           "text-2xl font-serif font-bold tracking-tight",
           isScrolled ? "text-chocolate" : "text-white"
@@ -253,7 +253,7 @@ const Hero = () => {
         <div className="absolute inset-0 bg-black/30 z-10" />
         {/* §3 image-optimization: hero video, autoplay muted for LCP */}
         <video
-          src="/images/248474-hero.mp4"
+          src={`${import.meta.env.BASE_URL}images/248474-hero.mp4`}
           className="w-full h-full object-cover"
           autoPlay
           muted
@@ -612,7 +612,7 @@ const Footer = () => {
     <footer className="bg-white py-12 px-6 border-t border-chocolate/5" role="contentinfo">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
         <div className="flex items-center gap-2">
-          <img src="/images/logo.jpg" alt="Babičkino srdce logo" className="w-8 h-8 rounded-full object-cover" />
+          <img src={`${import.meta.env.BASE_URL}images/logo.jpg`} alt="Babičkino srdce logo" className="w-8 h-8 rounded-full object-cover" />
           <span className="text-xl font-serif font-bold text-chocolate">Babičkino srdce</span>
         </div>
 
