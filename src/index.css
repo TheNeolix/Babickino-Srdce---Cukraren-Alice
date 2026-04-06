@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+
+  --color-gold: #D4AF37;
+  --color-cream: #FFFDD0;
+  --color-chocolate: #3D1C02;
+  --color-warm-gray: #F5F5F0;
+}
+
+@layer base {
+  body {
+    @apply bg-warm-gray text-chocolate font-sans antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+
+  /* §1 Accessibility: focus-states — visible focus rings on all interactive elements */
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-gold;
+  }
+
+  /* §7 Animation: reduced-motion — respect prefers-reduced-motion */
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+/* §1 Accessibility: skip-links — skip to main content for keyboard users */
+.skip-link {
+  @apply absolute -top-12 left-4 bg-gold text-white px-4 py-2 rounded-b-lg z-[100] font-medium text-sm;
+  transition: top 0.2s;
+}
+.skip-link:focus {
+  @apply top-0;
+}
