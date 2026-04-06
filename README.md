@@ -57,24 +57,24 @@ full accessibility (ARIA, keyboard nav, reduced motion), responsive mobile-first
 **Project Structure**
 
 Alice-Pastery/
-├── index.html              ← Entry point
-├── package.json            ← Dependencies & scripts
-├── tsconfig.json           ← TypeScript config
-├── vite.config.ts          ← Vite + Tailwind plugin
-├── .env.example            ← Environment variables template
-├── .gitignore
+├── index.html              # Entry point (Vite)
+├── package.json            # Závislosti a skripty
+├── tsconfig.json           # Konfigurácia TypeScriptu
+├── vite.config.ts          # Vite + Tailwind nastavenia
+├── .env.example            # Šablóna pre environmentálne premenné
+├── .gitignore              # Ignorované súbory (node_modules, atď.)
 ├── public/
 │   └── images/
-│       ├── logo.jpg        ← Brand logo
-│       ├── 248474-hero.mp4 ← Hero background video (2.3MB)
-│       ├── 248474-web.mp4  ← Web-quality video (12.4MB)
-│       └── 248474.mp4      ← Original video (31.7MB)
+│       ├── logo.jpg        # Brand identita (Babickino Srdce)
+│       ├── 248474-hero.mp4 # Hero video (Optimalizované, 2.3MB)
+│       ├── 248474-web.mp4  # Web-quality video (12.4MB)
+│       └── 248474.mp4      # Master video (Raw, 31.7MB)
 └── src/
-    ├── main.tsx            ← React DOM entry
-    ├── App.tsx             ← All components (single-file)
-    ├── index.css           ← Design tokens + Tailwind
+    ├── main.tsx            # React DOM inicializácia
+    ├── App.tsx             # Hlavná logika a komponenty
+    ├── index.css           # Design tokens + Tailwind vrstvy
     └── lib/
-        └── utils.ts        ← cn() utility (clsx + twMerge)
+        └── utils.ts        # cn() utility pre čisté Tailwind classy
 
 
 ---
