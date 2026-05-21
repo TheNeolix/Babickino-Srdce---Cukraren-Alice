@@ -1,5 +1,5 @@
 Markdown
-# 🌌 Project Name: Babičkino Srdce
+# Project Name: Babičkino Srdce
 [https://theneolix.github.io/Babickino-Srdce---Cukraren-Alice/](https://theneolix.github.io/Babickino-Srdce---Cukraren-Alice/)
 ### ⚡ Powered by Neolix Studio
 
@@ -8,14 +8,14 @@ Markdown
 
 ---
 
-## 🎯 Strategický cieľ
+## Strategický cieľ
 Vytvorenie moderného, „chutného“ digitálneho zážitku, ktorý prenáša rodinnú atmosféru Cukrárne Alice do online sveta. Web slúži ako vizuálny katalóg poctivej výroby, pričom čistý layout a optimalizované zobrazenie produktov eliminujú bariéry medzi online návštevnikom a nákupom. Dizajn cielene odlišuje značku od konkurenčných reťazcov dôrazom na autenticitu a lokálny pôvod.
 
 ---
 
-## 🎨 Visual Identity (Style Guide)
+## Visual Identity (Style Guide)
 
-### 🔴 Core Colors
+### Core Colors
 | Role | Name | HEX |
 | :---  | :---  | :--- |
 |Primary / Accent | Gold | `#D4AF37` |
@@ -26,7 +26,7 @@ Vytvorenie moderného, „chutného“ digitálneho zážitku, ktorý prenáša 
 | Overlay | Black (30% opacity) | `#000000` / 30% |
 | Success State | Green | `#16A34A` |
 
-### 🔡 Typography
+### Typography
 | Role | Font | Source | Fallback Stack |
 | :--- | :--- | :--- | :--- |
 | Primary (Sans) | Inter | Google Fonts | `ui-sans-serif, system-ui, sans-serif` |
@@ -34,13 +34,13 @@ Vytvorenie moderného, „chutného“ digitálneho zážitku, ktorý prenáša 
 
 ---
 
-## 🚀 Key Features
+## Key Features
 Parallax video hero, scroll-aware glassmorphism navbar, animated product filtering, contact form with loading/success states,
 full accessibility (ARIA, keyboard nav, reduced motion), responsive mobile-first design
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 | Layer | Technology | Version |
 | :--- | :--- | :--- |
 | Framework | React | 19.0.0 |
@@ -80,7 +80,7 @@ Alice-Pastery/
 
 ---
 
-## 📩 Contact
+## Contact
 Máte záujem o podobnú digitálnu transformáciu?
 - **Web:** [neolix.studio](https://neolix.studio)
 - **Email:** [info@neolix.studio](mailto:info@neolix.studio)
